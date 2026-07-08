@@ -1,8 +1,10 @@
-# Git & GitHub Learning Repository
+# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="28" alt="GitHub Logo"> Git & GitHub Learning Repository
 
-This repository is created to practice Git and GitHub concepts through hands-on implementation. It demonstrates the complete Git workflow, including repository management, branching, commits, pull requests, merging, and conflict resolution.
+This repository is created to practice **Git** and **GitHub** concepts through hands-on implementation. It demonstrates the complete Git workflow, including repository management, branching, commits, pull requests, merging, and conflict resolution.
 
-## Objectives
+---
+
+## 🎯 Objectives
 
 - Learn Git basics
 - Practice GitHub workflow
@@ -15,16 +17,20 @@ This repository is created to practice Git and GitHub concepts through hands-on 
 - Resolve merge conflicts
 - Use `.gitignore` to protect sensitive files
 
-## Project Structure
+---
 
-```
+## 📁 Project Structure
+
+```text
 Git-GitHub-Learning/
 │── index.html
 │── .gitignore
 │── README.md
 ```
 
-## Git Commands Practiced
+---
+
+## 💻 Git Commands Practiced
 
 ```bash
 git init
@@ -41,9 +47,11 @@ git merge
 git log
 ```
 
-## GitHub Workflow
+---
 
-```
+## 🔄 GitHub Workflow
+
+```text
 Create Repository
         │
         ▼
@@ -77,7 +85,9 @@ Merge Pull Request
 Resolve Merge Conflicts (if any)
 ```
 
-## Topics Covered
+---
+
+## 📚 Topics Covered
 
 - Git Installation
 - Git Repository Initialization
@@ -90,12 +100,16 @@ Resolve Merge Conflicts (if any)
 - Pull Requests
 - Merge Branches
 - Merge Conflicts
-- .gitignore
+- `.gitignore`
 
-## Learning Outcome
+---
+
+## 🚀 Learning Outcome
 
 Through this project, I gained practical experience with Git and GitHub workflows used in real-world software development. This repository serves as a reference for understanding version control, collaborative development, and best practices for managing source code.
 
-## Author
+---
+
+## 👩‍💻 Author
 
 **Shruti Pailwan**
