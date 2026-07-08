@@ -1,4 +1,4 @@
-# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="28" alt="GitHub Logo"> Git & GitHub Learning Repository
+# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="28" alt="GitHub Logo"> Git & GitHub Learning 
 
 This repository is created to practice **Git** and **GitHub** concepts through hands-on implementation. It demonstrates the complete Git workflow, including repository management, branching, commits, pull requests, merging, and conflict resolution.
 
