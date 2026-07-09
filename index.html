@@ -1,137 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Git & GitHub Practice Repository</title>
 
-    <!-- Font Awesome for GitHub Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
-        body{
-            font-family:Arial, Helvetica, sans-serif;
-            background:#f4f6f9;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            min-height:100vh;
+        body {
+            background: linear-gradient(135deg, #d0e7e7, #1f5d5d);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
         }
 
-        .container{
-            width:85%;
-            max-width:900px;
-            background:#ffffff;
-            padding:60px;
-            border-radius:12px;
-            text-align:center;
-            box-shadow:0 10px 25px rgba(0,0,0,0.15);
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            background: white;
+            border-radius: 18px;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,.25);
+        }
+
+        .logo{
+            font-size:70px;
+            color:#181717;
+            margin-bottom:20px;
         }
 
         h1{
-            font-size:42px;
-            color:#1f2937;
-            margin-bottom:20px;
+            font-size:45px;
+            color:#1e293b;
+            margin-bottom:15px;
         }
 
-        h1 i{
-            color:#181717;
-            margin-right:12px;
-        }
-
-        p{
-            font-size:19px;
-            color:#555;
+        .subtitle{
+            font-size:20px;
+            color:#6a7a92;
+            margin-bottom:40px;
             line-height:1.7;
-            margin-bottom:35px;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+            margin:40px 0;
+        }
+
+        .card{
+            background:#f8fafc;
+            padding:30px;
+            border-radius:12px;
+            transition:.3s;
+            border:1px solid #e5e7eb;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+        }
+
+        .card i{
+            font-size:40px;
+            color:#2563eb;
+            margin-bottom:18px;
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            color:#111827;
+        }
+
+        .card p{
+            color:#555;
+            line-height:1.6;
         }
 
         h2{
-            font-size:30px;
-            color:#2563eb;
+            margin-top:40px;
             margin-bottom:20px;
+            color:#2563eb;
         }
 
         ul{
-            display:inline-block;
+            width:fit-content;
+            margin:auto;
             text-align:left;
-            font-size:20px;
-            color:#333;
-            margin-bottom:35px;
-        }
-
-        li{
-            margin:12px 0;
-        }
-
-        button{
-            background:#2563eb;
-            color:#fff;
-            border:none;
-            padding:15px 35px;
             font-size:18px;
-            border-radius:8px;
-            cursor:pointer;
-            transition:0.3s;
+            line-height:2;
+            color:#374151;
         }
 
-        button:hover{
-            background:#1d4ed8;
+        .btn{
+            display:inline-block;
+            margin-top:45px;
+            padding:15px 35px;
+            background:#084dec;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:18px;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#818caa;
         }
 
         footer{
-            margin-top:35px;
+            margin-top:45px;
+            color:#6b7280;
             font-size:15px;
-            color:#777;
         }
     </style>
+
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-  <h1>
-    <i class="fa-brands fa-github"></i>
-    GitHub Hands-on Learning
-</h1>
-        <p>
-            This project is created to practice Git and GitHub concepts through
-            hands-on implementation. It focuses on learning version control,
-            repository management, branching, commits, pull requests, and
-            collaborative development workflows.
-        </p>
+<div class="logo">
+<i class="fa-brands fa-github"></i>
+</div>
 
-        <h2>Practice Objectives</h2>
+<h1>Git & GitHub Practice Repository</h1>
 
-        <ul>
-            <li>Initialize a Git repository</li>
-            <li>Track project files</li>
-            <li>Create meaningful commits</li>
-            <li>Manage Git branches</li>
-            <li>Push code to GitHub</li>
-            <li>Pull latest changes</li>
-            <li>Create Pull Requests</li>
-            <li>Merge branches successfully</li>
-            <li>Resolve merge conflicts</li>
-        </ul>
+<p class="subtitle">
+This repository is designed to practice Git and GitHub through real-world
+hands-on activities including version control, branching strategies,
+collaboration, pull requests, and merge conflict resolution.
+</p>
 
-        <br>
+<div class="cards">
 
-        <button>Explore Repository</button>
+<div class="card">
+<i class="fa-solid fa-code-branch"></i>
+<h3>Branching</h3>
+<p>Create, switch and manage Git branches efficiently.</p>
+</div>
 
-        <footer>
-            Git & GitHub Learning Project | Version Control Practice
-        </footer>
+<div class="card">
+<i class="fa-solid fa-code-commit"></i>
+<h3>Commits</h3>
+<p>Track project changes using meaningful commit messages.</p>
+</div>
 
-    </div>
+<div class="card">
+<i class="fa-solid fa-code-pull-request"></i>
+<h3>Pull Requests</h3>
+<p>Compare branches and collaborate using Pull Requests.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-shield"></i>
+<h3>Merge Conflicts</h3>
+<p>Practice resolving merge conflicts like real development teams.</p>
+</div>
+
+</div>
+
+<h2>Practice Objectives</h2>
+
+<ul>
+<li>Initialize a Git repository</li>
+<li>Track project files</li>
+<li>Create meaningful commits</li>
+<li>Manage Git branches</li>
+<li>Push code to GitHub</li>
+<li>Pull latest changes</li>
+<li>Create Pull Requests</li>
+<li>Resolve Merge Conflicts</li>
+<li>Merge branches successfully</li>
+<li>Understand collaborative Git workflow</li>
+</ul>
+
+<a href="https://github.com" class="btn">
+Explore GitHub
+</a>
+
+<footer>
+
+Git & GitHub Learning Project • Version Control Practice • 2026
+
+</footer>
+
+</div>
 
 </body>
+
 </html>
